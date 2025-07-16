@@ -1,0 +1,63 @@
+    
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color:  #fdf6f0;;
+            color: #333;
+        }
+
+        header, footer {
+            background: #4b2e83;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .intro {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            padding: 2rem;
+        }
+
+        .intro-text {
+            flex: 1;
+            padding: 2rem;
+        }
+
+        .intro-img {
+            flex: 1;
+            text-align: center;
+            
+        }
+
+        .intro-img img {
+            max-width: 100%;
+            height: auto;
+            width: 400px;
+        }
+
+        section {
+            padding: 2rem 1rem;
+        }
+
+        .skills img,
+        .learning img,
+        .other-skills img {
+            height: 40px;
+            margin: 10px;
+        }
+
+        .portfolio img {
+            width: 100%;
+            height: auto;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            margin-bottom: 1rem;
+            width: 100%;
+            padding: 10px;
+        }
+    
